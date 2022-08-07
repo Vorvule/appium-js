@@ -1,0 +1,5 @@
+{
+    "platformName": "Android",
+    "appium:deviceName": "Pixel XL",
+    "appium:app": "C:/Programs/htdocs/appium_js/ApiDemos-debug.apk"
+  }
