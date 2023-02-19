@@ -6,6 +6,5 @@ describe("Sample", () => {
     dial.appBtn.click;
     driver.pause(10000);
     dial.alertBtn.addValue;
-
   });
 });
