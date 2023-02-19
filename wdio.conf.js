@@ -49,8 +49,11 @@ exports.config = {
     {
       platformName: "Android",
       "appium:deviceName": "Pixel 5",
+      // "appium:platformVersion": "7",
       "appium:app": join(process.cwd(), "./ApiDemos-debug.apk"),
       "appium:automationName": "UiAutomator2",
+      // "appium:appPackage": "io.appium.android.apis",
+      // "appium:appActivity": "io.appium.android.apis.ApiDemos"
     },
   ],
   //
