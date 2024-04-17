@@ -48,8 +48,8 @@ exports.config = {
   capabilities: [
     {
       platformName: "Android",
-      "appium:deviceName": "Pixel 5",
-      // "appium:platformVersion": "7",
+      "appium:deviceName": "Medium Phone API 31 ",
+      "appium:platformVersion": "12.0",
       "appium:app": join(process.cwd(), "./ApiDemos-debug.apk"),
       "appium:automationName": "UiAutomator2",
       // "appium:appPackage": "io.appium.android.apis",
@@ -103,7 +103,7 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ["selenium-standalone"],
+  services: ["appium"],
 
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
