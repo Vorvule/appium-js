@@ -6,6 +6,4 @@ module.exports = class Dial {
   get alertBtn() {
     return $("//android.widget.TextView[@content-desc=\"Alert Dialogs\"]");
   }
-
-  
 }
